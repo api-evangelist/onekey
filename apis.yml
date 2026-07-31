@@ -1,9 +1,29 @@
 aid: onekey
 name: OneKey
-description: 'OneKey is a company surfaced as a portfolio company of ribbit-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  OneKey is a self-custody crypto wallet company — "Self Custody. Open Source.
+  Fully Onchain." It builds open-source hardware wallets (OneKey Pro, Classic 1S,
+  Classic 1S Pure, Lite) and cross-platform software wallets for macOS, Windows,
+  Linux, iOS, Android, and Chrome, secured by an EAL6+ secure element and
+  ISO/IEC 27001-certified operations. Its developer surface is the open-source
+  Hardware JS SDK (@onekeyfe on npm) over WebUSB / BLE transports, an injected
+  EIP-1193 dApp provider, air-gap QR signing for Bitcoin, Ethereum/EVM, Solana,
+  and Tron, and the private-beta Agent Wallet that exposes wallet, swap, market,
+  and safety skills to AI agents while keeping user control. Backed by Coinbase
+  Ventures, Dragonfly, Ribbit Capital, and YZi Labs.
 url: https://raw.githubusercontent.com/api-evangelist/onekey/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://asset.onekey.so/portal/fc96b6b84ff4450d3b5c878e93f2f54da310ab76/og/og5.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +32,20 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Crypto
+- Cryptocurrency
+- Hardware Wallet
+- Wallet
+- Self Custody
+- Web3
+- Blockchain
+- Bitcoin
+- Ethereum
+- SDK
+- Developer Tools
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,58 @@ maintainers:
 common:
 - type: Website
   url: https://onekey.so
+- type: DeveloperPortal
+  url: https://developer.onekey.so
+- type: Documentation
+  url: https://developer.onekey.so/en/
+- type: APIReference
+  url: https://developer.onekey.so/en/hardware-sdk/
+- type: GettingStarted
+  url: https://developer.onekey.so/connect-to-hardware/page-1/tutorial
+- type: Support
+  url: https://help.onekey.so/en/
+- type: Blog
+  url: https://onekey.so/blog
+- type: GitHubOrganization
+  url: https://github.com/OneKeyHQ
+- type: ChangeLog
+  url: https://developer.onekey.so/en/changelog/
+- type: Changelog
+  url: changelog/onekey-changelog.yml
+- type: StatusPage
+  url: https://status.onekey.so
+- type: Pricing
+  url: https://shop.onekey.so
+- type: SignUp
+  url: https://app.onekey.so
+- type: TermsOfService
+  url: https://help.onekey.so/articles/11461297
+- type: PrivacyPolicy
+  url: https://help.onekey.so/articles/11461298
+- type: SecurityTxt
+  url: well-known/onekey-security.txt
+- type: WellKnown
+  url: well-known/onekey-well-known.yml
+- type: Packages
+  url: packages/onekey-packages.yml
+- type: SDKs
+  url: packages/onekey-packages.yml
+- type: Lifecycle
+  url: lifecycle/onekey-lifecycle.yml
+- type: Conformance
+  url: conformance/onekey-conformance.yml
+- type: Compliance
+  url: https://onekey.so/blog/updates/one-key-iso-iec-27001/
+- type: DomainSecurity
+  url: security/onekey-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/onekey-vulnerability-disclosure.yml
+- type: Security
+  url: https://onekey.so/.well-known/security.txt
+- type: LLMsTxt
+  url: llms/onekey-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 8
+  pass: local-v1

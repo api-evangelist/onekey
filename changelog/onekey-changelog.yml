@@ -1,0 +1,55 @@
+generated: '2026-07-20'
+method: searched
+source: https://developer.onekey.so/en/changelog/
+notes: >-
+  Hardware JS SDK (@onekeyfe/*) changelog. Cross-inpage-provider (the injected
+  dApp provider) is versioned separately; its recent entries are noted at the
+  end. Recent window only — the live changelog is the source of truth.
+scheme: semver
+current_version: 1.1.32           # latest @onekeyfe/hd-core on npm (2026-07-20)
+release_types: [Feature, Patch, Latest]
+entries:
+  - version: 1.1.21
+    date: '2024-12-24'
+    type: patch
+    highlights:
+      - Fixed iOS and extension firmware exchange issues.
+      - Improved getFeature retry mechanism during exchange.
+  - version: 1.1.20
+    date: '2024-12-19'
+    type: feature
+    highlights:
+      - Added custom configuration support.
+      - Added connect-only mode.
+      - Fixed desktop-web transport in Electron.
+  - version: 1.1.19
+    date: '2024-12-01'
+    type: feature
+    highlights:
+      - Added Bitcoin-only firmware support.
+      - Added Tron integration.
+      - WebUSB retry improvements.
+  - version: 1.1.18
+    date: '2024-11-21'
+    type: patch
+    highlights:
+      - Fixed Bluetooth connectivity problems on desktop.
+  - version: 1.1.17
+    date: '2024-11-11'
+    type: feature
+    highlights:
+      - Added React Native BLE demo support.
+      - Fixed signature handling for larger data sets.
+related_changelog:
+  package: "@onekeyfe/cross-inpage-provider"
+  entries:
+    - version: 2.2.58
+      date: '2025-01-12'
+      type: feature
+      highlights:
+        - Added rookie guide method for onboarding.
+    - version: 2.2.55
+      date: '2024-12-16'
+      type: feature
+      highlights:
+        - Added Cardano (ADA) provider support.

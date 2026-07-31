@@ -1,0 +1,3 @@
+Contact: mailto:dev@onekey.so
+Expires: 2030-12-31T23:59:00Z
+Preferred-Languages: en,zh-cn

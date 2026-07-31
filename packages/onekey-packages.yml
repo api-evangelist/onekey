@@ -1,0 +1,66 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/org/onekeyfe
+notes: >-
+  OneKey ships its developer surface as the open-source Hardware JS SDK
+  (github.com/OneKeyHQ/hardware-js-sdk), published to npm under the @onekeyfe
+  scope. There is no hosted REST API / OpenAPI; integration is via these client
+  libraries plus the injected dApp provider. Versions verified against the npm
+  registry on 2026-07-20.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@onekeyfe/hd-core"
+    version: 1.1.32
+    url: https://www.npmjs.com/package/@onekeyfe/hd-core
+    install: npm install @onekeyfe/hd-core
+    description: Core processes and APIs for communicating with OneKey hardware devices.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@onekeyfe/hd-web-sdk"
+    version: 1.1.32
+    url: https://www.npmjs.com/package/@onekeyfe/hd-web-sdk
+    install: npm install @onekeyfe/hd-web-sdk
+    description: Browser implementation of the Hardware SDK (iframe transport, avoids cross-domain issues).
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@onekeyfe/hd-ble-sdk"
+    version: 1.1.32
+    url: https://www.npmjs.com/package/@onekeyfe/hd-ble-sdk
+    install: npm install @onekeyfe/hd-ble-sdk
+    description: React Native / mobile Bluetooth Low Energy build of the Hardware SDK.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@onekeyfe/hd-common-connect-sdk"
+    version: 1.1.32
+    url: https://www.npmjs.com/package/@onekeyfe/hd-common-connect-sdk
+    install: npm install @onekeyfe/hd-common-connect-sdk
+    description: Node.js build of the Hardware SDK.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@onekeyfe/hd-transport"
+    version: 1.1.32
+    url: https://www.npmjs.com/package/@onekeyfe/hd-transport
+    install: npm install @onekeyfe/hd-transport
+    description: Transport layer abstractions and utilities for the Hardware SDK.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@onekeyfe/hd-transport-webusb"
+    version: 1.0.39-alpha.3
+    url: https://www.npmjs.com/package/@onekeyfe/hd-transport-webusb
+    install: npm install @onekeyfe/hd-transport-webusb
+    description: WebUSB transport implementation for the Hardware SDK.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@onekeyfe/hd-shared"
+    version: 1.1.32
+    url: https://www.npmjs.com/package/@onekeyfe/hd-shared
+    install: npm install @onekeyfe/hd-shared
+    description: Shared tool library for the Hardware SDK.
+    official: true

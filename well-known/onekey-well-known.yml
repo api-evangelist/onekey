@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+source: https://onekey.so/.well-known/security.txt
+host: https://onekey.so
+documents:
+  - path: /.well-known/security.txt          # RFC 9116
+    status: 200
+    file: onekey-security.txt
+  - path: /.well-known/openid-configuration   # OIDC discovery
+    status: 404                               # SPA soft-404 (text/html shell, not a real document)
+  - path: /.well-known/oauth-authorization-server  # RFC 8414
+    status: 404
+  - path: /.well-known/api-catalog            # RFC 9727
+    status: 404                               # SPA soft-404
+  - path: /.well-known/ai-plugin.json
+    status: 404                               # SPA soft-404
+notes: >-
+  developer.onekey.so also serves the same /.well-known/security.txt (200,
+  text/plain). All other probed paths return the Next.js SPA HTML shell with a
+  200 code but text/html content, i.e. soft-404s, so they are recorded as 404.

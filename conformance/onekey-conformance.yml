@@ -1,0 +1,58 @@
+generated: '2026-07-20'
+method: searched
+source: https://onekey.so/blog/updates/
+notes: >-
+  OneKey is a self-custody hardware + software crypto wallet. It publishes no
+  hosted REST API/OpenAPI, so the standards asserted here are the security and
+  information-management certifications the company documents publicly, plus the
+  wallet-ecosystem interoperability conventions its SDK implements. Booleans
+  reflect published claims, not an independent audit by API Evangelist.
+standards:
+  - id: iso-iec-27001
+    conforms: true
+    evidence: >-
+      ISO/IEC 27001 Information Security Management System certification announced
+      2025.
+    source: https://onekey.so/blog/updates/one-key-iso-iec-27001/
+  - id: common-criteria-eal6-plus
+    conforms: true
+    evidence: >-
+      THD89 secure element passed Common Criteria EAL6+ (augmented ASE_TSS.2)
+      secure-chip certification.
+    source: https://onekey.so/blog/updates/onekey-passes-eal6-secure-chip-certification/
+  - id: en-18031
+    conforms: true
+    evidence: EU EN 18031 cybersecurity certification (cited on onekey.so).
+    source: https://onekey.so/
+  - id: slowmist-security-audit
+    conforms: true
+    evidence: >-
+      Third-party firmware & key-security audit by SlowMist; overall conclusion
+      Low Risk, single medium-risk issue fixed.
+    source: https://onekey.so/blog/updates/one-key-has-passed-a-security-audit-by-slow-mist/
+  - id: bip39-mnemonic
+    conforms: true
+    evidence: BIP39 recovery-phrase support; recovery tool at bip39.onekey.so.
+    source: https://bip39.onekey.so/
+  - id: bip32-hd-wallet
+    conforms: true
+    evidence: Hierarchical-deterministic key derivation (CryptoHDKey / CryptoKeypath in the SDK).
+    source: https://developer.onekey.so/
+  - id: eip-1193-provider
+    conforms: true
+    evidence: >-
+      Injected Ethereum provider follows the EIP-1193 provider interface via
+      cross-inpage-provider.
+    source: https://github.com/OneKeyHQ/cross-inpage-provider
+  - id: bip174-psbt
+    conforms: true
+    evidence: Bitcoin PSBT (BIP174) signing documented in the Hardware SDK.
+    source: https://developer.onekey.so/
+  - id: ur-airgap
+    conforms: true
+    evidence: Air-gap QR signing uses BC-UR (Uniform Resource) encoding for offline transports.
+    source: https://developer.onekey.so/
+  - id: oauth2
+    conforms: false
+  - id: rfc9457-problem-details
+    conforms: false

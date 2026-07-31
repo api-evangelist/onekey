@@ -1,0 +1,37 @@
+generated: '2026-07-20'
+method: searched
+source: https://developer.onekey.so/en/changelog/
+notes: >-
+  OneKey ships client SDKs (semver) rather than a versioned hosted REST API, so
+  lifecycle here covers the SDK release cadence, the operational status page, and
+  the Agent Wallet product stage. No formal deprecation/sunset policy or RFC 8594
+  Sunset headers are published (no hosted API to carry them).
+versioning:
+  scheme: semver
+  current: '1.1.32'
+  docs: https://developer.onekey.so/en/changelog/
+deprecation:
+  policy_url: null
+  sunset_header: false
+sla:
+  url: null
+  uptime_target: null
+status_page: https://status.onekey.so
+status_page_provider: Atlassian Statuspage
+status_components_observed:
+  - Wallet (Mobile App)
+  - API
+  - Swap
+  - Earn
+  - Prime
+  - Rebate
+  - Notification
+  - Lightning
+product_stages:
+  - product: Hardware JS SDK
+    stage: ga
+  - product: dApp Provider API
+    stage: ga
+  - product: Agent Wallet
+    stage: private-beta
+deprecated_operations: []
